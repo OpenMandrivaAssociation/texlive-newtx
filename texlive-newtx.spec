@@ -1,12 +1,12 @@
-# revision 27273
+# revision 27952
 # category Package
 # catalog-ctan /fonts/newtx
-# catalog-date 2012-07-31 19:56:52 +0200
+# catalog-date 2012-10-11 17:31:20 +0200
 # catalog-license lppl
-# catalog-version 1.02
+# catalog-version 1.041
 Name:		texlive-newtx
-Version:	1.02
-Release:	2
+Version:	1.041
+Release:	1
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtx
@@ -37,11 +37,19 @@ mathematics package that matches Libertine text quite well.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/enc/public/newtx/alt-mn-greek.enc
-%{_texmfdistdir}/fonts/enc/public/newtx/libertinealt.enc
-%{_texmfdistdir}/fonts/map/dvips/public/newtx/ntx.map
-%{_texmfdistdir}/fonts/map/dvips/public/newtx/zmn.map
+%{_texmfdistdir}/fonts/enc/dvips/newtx/alt-mn-greek.enc
+%{_texmfdistdir}/fonts/enc/dvips/newtx/libertinealt.enc
+%{_texmfdistdir}/fonts/enc/dvips/newtx/sups.enc
+%{_texmfdistdir}/fonts/map/dvips/newtx/newtx.map
+%{_texmfdistdir}/fonts/map/dvips/newtx/zmn.map
+%{_texmfdistdir}/fonts/tfm/public/newtx/LibertineI-5nu.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/LibertineI-7nu.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/LibertineI-nu.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/LibertineTheta-Regular.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/LibertineZ-nu.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/LibertineZI-5nu.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/LibertineZI-7nu.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/LibertineZI-nu.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/fxlri-5alt.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/fxlri-5letters.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/fxlri-7alt.tfm
@@ -53,6 +61,7 @@ mathematics package that matches Libertine text quite well.
 %{_texmfdistdir}/fonts/tfm/public/newtx/fxlzi-jv.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/fxlzi-jv5.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/fxlzi-jv7.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/libertine-nu.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/ntxbex.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/ntxbexa.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/ntxbexb.tfm
@@ -96,6 +105,12 @@ mathematics package that matches Libertine text quite well.
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi1.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi15.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi17.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi2.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi25.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi27.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi3.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi35.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi37.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi5.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi7.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmia.tfm
@@ -103,6 +118,12 @@ mathematics package that matches Libertine text quite well.
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi1.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi15.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi17.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi2.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi25.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi27.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi3.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi35.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi37.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi5.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi7.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmia.tfm
@@ -152,7 +173,21 @@ mathematics package that matches Libertine text quite well.
 %{_texmfdistdir}/fonts/tfm/public/newtx/tyxslj.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/zmn-vw-b.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/zmn-vw-r.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/zxlr-5nums.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/zxlr-7nums.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/zxlr-8r.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/zxlri-8r.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/zxlz-8r.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/zxlzi-8r.tfm
+%{_texmfdistdir}/fonts/type1/public/newtx/Libertine-nu.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/LibertineI-5nu.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/LibertineI-7nu.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/LibertineI-nu.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/LibertineTheta-Regular.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/LibertineZ-nu.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/LibertineZI-5nu.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/LibertineZI-7nu.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/LibertineZI-nu.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/fxlri-5letters.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/fxlri-7letters.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/fxlri-vw.pfb
@@ -187,6 +222,12 @@ mathematics package that matches Libertine text quite well.
 %{_texmfdistdir}/fonts/type1/public/newtx/txsy7.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/zmn-vw-b.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/zmn-vw-r.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/zxlr-5nums.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/zxlr-7nums.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/zxlr.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/zxlri.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/zxlz.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/zxlzi.pfb
 %{_texmfdistdir}/fonts/vf/public/newtx/ntxbex.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/ntxbexa.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/ntxbexv.vf
@@ -223,6 +264,12 @@ mathematics package that matches Libertine text quite well.
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi1.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi15.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi17.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi2.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi25.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi27.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi3.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi35.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi37.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi5.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi7.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmia.vf
@@ -230,6 +277,12 @@ mathematics package that matches Libertine text quite well.
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmi1.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmi15.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmi17.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi2.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi25.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi27.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi3.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi35.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi37.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmi5.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmi7.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmia.vf
@@ -269,6 +322,7 @@ mathematics package that matches Libertine text quite well.
 %{_texmfdistdir}/tex/latex/newtx/ot1ntxrj.fd
 %{_texmfdistdir}/tex/latex/newtx/ot1ntxss.fd
 %{_texmfdistdir}/tex/latex/newtx/ot1ntxtt.fd
+%{_texmfdistdir}/tex/latex/newtx/t1fxl1.fd
 %{_texmfdistdir}/tex/latex/newtx/t1ntxr.fd
 %{_texmfdistdir}/tex/latex/newtx/t1ntxr1.fd
 %{_texmfdistdir}/tex/latex/newtx/t1ntxrj.fd
