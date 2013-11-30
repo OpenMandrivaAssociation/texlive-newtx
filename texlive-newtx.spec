@@ -1,11 +1,11 @@
-# revision 31836
+# revision 32201
 # category Package
 # catalog-ctan /fonts/newtx
-# catalog-date 2013-10-01 07:31:09 +0200
+# catalog-date 2013-11-20 01:15:11 +0100
 # catalog-license lppl
-# catalog-version 1.141
+# catalog-version 1.16
 Name:		texlive-newtx
-Version:	1.141
+Version:	1.160
 Release:	1
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
@@ -59,6 +59,18 @@ maths combination.
 %{_texmfdistdir}/fonts/tfm/public/newtx/LibertineZI-5nu.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/LibertineZI-7nu.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/LibertineZI-nu.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibBol-ly1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibBol-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibBol-t1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibBolIta-ly1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibBolIta-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibBolIta-t1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibIta-ly1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibIta-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibIta-t1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibReg-ly1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibReg-ot1.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/MinLibReg-t1.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/fxlri-5alt.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/fxlri-5letters.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/fxlri-7alt.tfm
@@ -132,6 +144,18 @@ maths combination.
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbsy5.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbsy7.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi0.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi01.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi015.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi017.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi02.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi025.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi027.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi03.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi035.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi037.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi05.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi07.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi1.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi15.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlmi17.tfm
@@ -226,6 +250,10 @@ maths combination.
 %{_texmfdistdir}/fonts/type1/public/newtx/LibertineZI-5nu.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/LibertineZI-7nu.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/LibertineZI-nu.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/MinLibBol.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/MinLibBolIta.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/MinLibIta.pfb
+%{_texmfdistdir}/fonts/type1/public/newtx/MinLibReg.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/fxlri-5letters.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/fxlri-7letters.pfb
 %{_texmfdistdir}/fonts/type1/public/newtx/fxlri-vw.pfb
@@ -320,6 +348,18 @@ maths combination.
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbsy5.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbsy7.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmi.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi0.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi01.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi015.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi017.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi02.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi025.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi027.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi03.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi035.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi037.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi05.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlmi07.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmi1.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmi15.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlmi17.vf
@@ -352,6 +392,7 @@ maths combination.
 %{_texmfdistdir}/fonts/vf/public/newtx/tyxij.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/tyxrj.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/tyxslj.vf
+%{_texmfdistdir}/tex/latex/newtx/ly1minlibertine.fd
 %{_texmfdistdir}/tex/latex/newtx/ly1ntxr.fd
 %{_texmfdistdir}/tex/latex/newtx/ly1ntxr1.fd
 %{_texmfdistdir}/tex/latex/newtx/ly1ntxrj.fd
@@ -364,6 +405,7 @@ maths combination.
 %{_texmfdistdir}/tex/latex/newtx/omlnxlmi.fd
 %{_texmfdistdir}/tex/latex/newtx/omlzmnmi.fd
 %{_texmfdistdir}/tex/latex/newtx/omsntxsy.fd
+%{_texmfdistdir}/tex/latex/newtx/ot1minlibertine.fd
 %{_texmfdistdir}/tex/latex/newtx/ot1ntxr.fd
 %{_texmfdistdir}/tex/latex/newtx/ot1ntxr1.fd
 %{_texmfdistdir}/tex/latex/newtx/ot1ntxrj.fd
@@ -371,6 +413,7 @@ maths combination.
 %{_texmfdistdir}/tex/latex/newtx/ot1ntxss.fd
 %{_texmfdistdir}/tex/latex/newtx/ot1ntxtt.fd
 %{_texmfdistdir}/tex/latex/newtx/t1fxl1.fd
+%{_texmfdistdir}/tex/latex/newtx/t1minlibertine.fd
 %{_texmfdistdir}/tex/latex/newtx/t1ntxr.fd
 %{_texmfdistdir}/tex/latex/newtx/t1ntxr1.fd
 %{_texmfdistdir}/tex/latex/newtx/t1ntxrj.fd
