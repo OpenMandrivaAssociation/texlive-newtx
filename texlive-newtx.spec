@@ -6,7 +6,7 @@
 # catalog-version 1.16
 Name:		texlive-newtx
 Version:	1.160
-Release:	4
+Release:	5
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtx
