@@ -6,7 +6,7 @@
 # catalog-version 1.041
 Name:		texlive-newtx
 Version:	1.041
-Release:	1
+Release:	2
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtx
