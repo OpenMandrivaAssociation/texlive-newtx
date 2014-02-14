@@ -1,12 +1,12 @@
-# revision 32201
+# revision 32943
 # category Package
 # catalog-ctan /fonts/newtx
-# catalog-date 2013-11-20 01:15:11 +0100
+# catalog-date 2014-02-11 14:48:46 +0100
 # catalog-license lppl
-# catalog-version 1.16
+# catalog-version 1.22
 Name:		texlive-newtx
-Version:	1.160
-Release:	5
+Version:	1.220
+Release:	1
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtx
@@ -129,6 +129,18 @@ maths combination.
 %{_texmfdistdir}/fonts/tfm/public/newtx/ntxsyc.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/ntxsyralt.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi0.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi01.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi015.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi017.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi02.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi025.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi027.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi03.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi035.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi037.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi05.tfm
+%{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi07.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi1.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi15.tfm
 %{_texmfdistdir}/fonts/tfm/public/newtx/nxlbmi17.tfm
@@ -333,6 +345,18 @@ maths combination.
 %{_texmfdistdir}/fonts/vf/public/newtx/ntxsyb.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/ntxsyc.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi0.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi01.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi015.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi017.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi02.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi025.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi027.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi03.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi035.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi037.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi05.vf
+%{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi07.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi1.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi15.vf
 %{_texmfdistdir}/fonts/vf/public/newtx/nxlbmi17.vf
