@@ -1,11 +1,11 @@
-# revision 32943
+# revision 33159
 # category Package
 # catalog-ctan /fonts/newtx
-# catalog-date 2014-02-11 14:48:46 +0100
+# catalog-date 2014-03-11 23:08:55 +0100
 # catalog-license lppl
-# catalog-version 1.22
+# catalog-version 1.24
 Name:		texlive-newtx
-Version:	1.220
+Version:	1.240
 Release:	1
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
