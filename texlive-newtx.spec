@@ -1,12 +1,12 @@
 Name:		texlive-newtx
-Version:	1.554
-Release:	3
+Version:	62369
+Release:	1
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtx
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtx.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtx.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtx.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtx.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +25,12 @@ garamondx package, thus offering a garamond-alike text-with-
 maths combination.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -46,7 +46,7 @@ maths combination.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
