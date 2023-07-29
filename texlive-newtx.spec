@@ -1,6 +1,6 @@
 Name:		texlive-newtx
-Version:	62369
-Release:	2
+Version:	67741
+Release:	1
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/newtx
