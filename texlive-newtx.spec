@@ -1,5 +1,5 @@
 Name:		texlive-newtx
-Version:	69381
+Version:	69756
 Release:	1
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
