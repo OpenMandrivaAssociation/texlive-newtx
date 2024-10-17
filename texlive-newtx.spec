@@ -3,7 +3,7 @@ Version:	72368
 Release:	1
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/newtx
+URL:		https://www.ctan.org/tex-archive/fonts/newtx
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/newtx.doc.r%{version}.tar.xz
