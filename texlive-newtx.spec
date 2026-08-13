@@ -1,9 +1,10 @@
 %global tl_name newtx
 %global tl_revision 78101
+%global tl_version 1.756
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	1.756
+Version:	%{tl_version}
 Release:	%{tl_revision}.1
 Summary:	Alternative uses of the TX fonts, with improved metrics
 Group:		Publishing
@@ -14,7 +15,8 @@ Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/newtx.doc.r%{tl_
 BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(kastrup)
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 The bundle splits txfonts.sty (from the TX fonts distribution) into two
@@ -27,3 +29,10 @@ Libertine text quite well. newtxmath can also use the maths italic font
 provided with the garamondx package, thus offering a garamond-alike
 text-with-maths combination.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from newtx:
+Map newtx.map
+TL_DROPIN_EOF
